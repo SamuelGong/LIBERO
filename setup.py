@@ -33,6 +33,9 @@ setup(
                 "init_files/*",
                 "init_files/*/*",      # 一层子目录
                 "init_files/*/*/*",    # 再多一层（保险一点）
+                "bddl_files/*",
+                "bddl_files/*/*",      # 一层子目录
+                "bddl_files/*/*/*",    # 再多一层（保险一点）
             ],
         },
     entry_points={
